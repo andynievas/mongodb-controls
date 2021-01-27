@@ -1,0 +1,22 @@
+
+Comandos  para instalar MongoDB.
+
+Import the public key used by the package management system:
+wget -qO - https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -
+
+Comandos para iniciar y detener el server MongoDB
+
+Start MongoDB:
+sudo systemctl start mongod
+
+Status:
+sudo systemctl status mongod
+
+Stop MongoDB:
+sudo systemctl stop mongod
+
+Restart MongoDB:
+sudo systemctl restart mongod
+
+Change autostart:
+sudo systemctl enable mongod
